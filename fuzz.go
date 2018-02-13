@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"pack.ag/amqp/internal/testconn"
+	"github.com/omriharel/amqp/internal/testconn"
 )
 
 func FuzzConn(data []byte) int {
